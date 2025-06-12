@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anton Gabriel-Mihai - Expert Evaluator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background-color: #1e3a8a; color: white; padding: 2rem; text-align: center; }
+    section { padding: 2rem; max-width: 800px; margin: auto; background: white; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    h1, h2 { color: #1e3a8a; }
+    .contact-form input, .contact-form textarea { width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+    .contact-form button { background-color: #1e3a8a; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; }
+    footer { text-align: center; padding: 1rem; background-color: #e5e7eb; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anton Gabriel-Mihai</h1>
+    <p>Expert Evaluator ANEVAR | Legitimația nr. 10245</p>
+  </header>
+
+  <section id="despre">
+    <h2>Despre mine</h2>
+    <p>Sunt economist cu experiență de peste 15 ani, evaluator autorizat și membru titular ANEVAR din anul 2012, deținând legitimația nr. 10245. Sunt specializat în evaluarea bunurilor mobile și imobile, oferind servicii profesionale, riguroase și conforme cu standardele în vigoare.</p>
+  </section>
+
+  <section id="servicii">
+    <h2>Servicii oferite</h2>
+    <ul>
+      <li>Evaluarea proprietăților imobiliare (locuințe, terenuri, construcții speciale)</li>
+      <li>Evaluarea bunurilor mobile: instalații complexe, utilaje, autovehicule</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Adresă:</strong> Câmpina, Str. Cloșca nr. 15, Prahova</p>
+    <p><strong>Email:</strong> <a href="mailto:evaluator.antongabriel@yahoo.com">evaluator.antongabriel@yahoo.com</a></p>
+    <p><strong>Telefon:</strong> <a href="tel:+40723531316">0723 531 316</a></p>
+
+    <form class="contact-form" action="mailto:evaluator.antongabriel@yahoo.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Nume" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" rows="5" placeholder="Mesajul tău" required></textarea>
+      <button type="submit">Trimite mesajul</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Anton Gabriel-Mihai. Toate drepturile rezervate.
+  </footer>
+</body>
+</html>
